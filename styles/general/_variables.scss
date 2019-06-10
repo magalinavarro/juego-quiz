@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    src: url('/../preguntadas/fonts/Karla-Bold.ttf');
+ }
+ 
+ @font-face {
+    font-family: 'Karla';
+    font-style: italic; 
+    src: url('/../preguntadas/fonts/Karla-Regular.ttf');
+ }
+ 
+ @font-face {
+    font-family: 'Karla';
+    src: url('/../preguntadas/fonts/Karla-BoldItalic.ttf');
+ }
+ 
+ @font-face {
+    font-family: 'Karla';
+    src: url('/../preguntadas/fonts/Karla-Italic.ttf');
+ }
+
+$main-font: 'Karla', sans-serif;
+
+$background-color: #D4E6B5;
+$background-menu:  #FFDF64;
+$main-color: rgb(51, 51, 50); 
+$secondary-color: #AFC97E;

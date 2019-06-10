@@ -1,0 +1,11 @@
+button {
+       text-decoration: none;
+       -webkit-appearance: none;
+       background-color: $secondary-color;
+       color: $main-color;
+       border: none;
+       box-shadow: none;
+       width: 100px;
+       height: 50px;
+       font-family: $main-font;
+}

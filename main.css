@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  src: url("/../preguntadas/fonts/Karla-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  src: url("/../preguntadas/fonts/Karla-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url("/../preguntadas/fonts/Karla-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url("/../preguntadas/fonts/Karla-Italic.ttf");
+}
+
+html, body {
+  height: 100%;
+  font-family: "Karla", sans-serif;
+  margin: 0 auto;
+}
+
+.hole-page {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #D4E6B5;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #333332;
+}
+
+.hole-page .welcome-message {
+  text-align: center;
+  font-size: 60px;
+}
+
+.hole-page .welcome-message .question.container {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.hole-page .welcome-message .question.container .card-header {
+  font-size: 30px;
+  color: #AFC97E;
+  background-color: grey;
+  padding: 25px 45px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.hole-page .welcome-message .question.container .card {
+  border: 4px solid #AFC97E;
+}
+
+.hole-page .welcome-message .question.container .card:nth-of-type(1n+2) {
+  border-top: 0;
+}
+
+.hole-page .welcome-message .question.container .options li {
+  list-style: none;
+}
+
+.hole-page .welcome-message .question.container .options li input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 0;
+}
+
+/*
+
+/*  Código del colapsable
+
+          
+          h2 {
+              margin: 0;
+          }
+          
+          
+          
+          
+          .card-header:hover {
+              background-color: #e9e9e9;
+          }
+           
+          .card-body {
+              height: 0;
+              overflow: hidden;
+              transition: height .5s;
+              padding: 0 25px;
+              background-color: #BC3B69; 
+          }
+          
+          .mostrar {
+              height: 230px;
+          }
+          
+          
+          p {
+              font-size: 20px;
+              color: white;
+              margin: 30px 0;
+          }
+          
+          button {
+              background-color: #bdc3c7;
+              text-align: center;
+              border-radius: 60px;
+              padding: 10px 0;
+              width: 300px;
+              line-height: 80px;
+              font-size: 60px;
+              user-select: none;
+              margin-bottom: 20px;
+          }
+
+
+          
+        
+        /*
+        
+        Ponerle:
+        input required/válido-inválido
+
+        ¿Inner box?
+        Flex a todos los contenedores para acceder a las propiedades de flex.
+        media queries (último)
+        Divs para columnas en html para ordenar contenido
+        Hover (chequear colapsable)
+        
+        Revisar JS.
+        Transition
+        Position
+        Hover para menú desplegable, aplica al login y register.
+        Sacar propiedades de inputs por defecto al igual que de las listas.
+        Psition relative para el contenedor y absolute para o que va adentro.
+        
+        Ponerle:
+        
+        
+        Color secundario
+        
+        Poner imagen y darle estilo
+        Fuentes
+        align content
+        Margen de color en uno de los lados de cada div de preguntas.
+        Darle estilo como el ejercicio responsive que en cada div tiene un botón que dice siguiente.
+        Inputs para loguearse del estilo del ejercicio responsive.
+        
+        
+        
+        */
+/*
+        Ponerle un diseño a las opciones que muestre, en lugar de una lista sin estilo, algo con
+        imágenes e interactivo.
+
+*/
+button {
+  text-decoration: none;
+  -webkit-appearance: none;
+  background-color: #AFC97E;
+  color: #333332;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 100px;
+  height: 50px;
+  font-family: "Karla", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
